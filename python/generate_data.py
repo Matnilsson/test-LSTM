@@ -28,4 +28,4 @@ print(df.tail())
 ## SAVE MODEL
 print('Saving model')
 file_name = '../data/USDJPY_1M_vwap.csv'
-df.to_csv(file_name, index = True)
+df.to_csv(file_name, index = False)
