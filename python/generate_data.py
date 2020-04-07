@@ -4,7 +4,6 @@ import numpy as np
 
 ## READ DATA
 df = pd.read_csv("../data/USDJPY_1M_3Y.csv")
-df = df.drop(['Open', 'High', 'Low', 'Local time'], axis = 1)
 print(df.head())
 
 ## CREATE VWAP
